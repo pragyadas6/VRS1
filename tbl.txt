@@ -1,0 +1,25 @@
+create table tbl_Admin (
+AdminId varchar2(10) primary key,
+FirstName varchar2(10) not null,
+LastName varchar2(10) not null,
+Age int not null,
+Gender varchar2(6) not null,
+ContactNumber varchar2(10) not null,
+EmailId varchar2(30) not null,
+Password varchar2(10) not null,
+Branch varchar2(10) not null);
+
+create table tbl_Vehicle (
+VehicleNo varchar2(10) primary key,
+Branch varchar2(10) not null,
+VehicleType varchar2(10) not null,
+InsuranceExpiryDate varchar2(10) not null,
+LastServiceDate varchar2(10) not null,
+ServiceDueDate varchar2(10) not null);
+
+CREATE TABLE TBL_LOGIN(
+adminId VARCHAR2(10) PRIMARY KEY,
+PASSWORD VARCHAR2(10) not null,
+RESETTOKEN VARCHAR2(50),
+STATUS VARCHAR2(10),
+emailId VARCHAR2(30) not null);
