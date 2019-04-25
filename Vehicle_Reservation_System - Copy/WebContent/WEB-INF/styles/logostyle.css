@@ -1,0 +1,50 @@
+.picture
+{
+margin-top:-13px;
+width:250px;
+        height:113px;
+margin-bottom: -13px;
+margin-left: -22px;
+  /* background: url(adminlogin.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.hero-bkg-animated {
+  /* background-image : gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0; */
+  background-image : url('/static/images/bluepatt.jpg') repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: justify;
+  height: 300px;
+  padding-top: -14px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+.loginbg
+{
+background-image : url('/static/images/login1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registerbg
+{
+/* background-image : url('/static/images/v1.jpg'); */
+/* background-image : ${request.contextPath}/static/images/v1.jpg"; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbg
+{
+/* background-image : url('/static/images/v1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}​
